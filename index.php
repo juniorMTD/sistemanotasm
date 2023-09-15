@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <?php include "./inc/head.php" ?>
 </head>
 <body>
+    <?php include "./inc/navbar.php" ?>
     
-
-<footer>
-    <div>
-        
-        <hr>
-        <h1>Desarrollado por Morales Tarazona Junior Eutemio</h1>
-    </div>
-</footer>
+    
+    <?php include "./inc/footer.php" ?>
 </body>
 </html>

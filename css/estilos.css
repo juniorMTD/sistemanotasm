@@ -1,0 +1,73 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container > .login{
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.form-inline{
+    display: inline-flex;
+}
+
+.division{
+    border-top: 2px solid #8c8b8b;
+}
+
+.division1{
+    border-top: 4px solid #fff;
+}
+
+.center{
+    text-align: center;
+}
+.center > small{
+    font-size: 16px;
+}
+
+
+.radiobuton{
+    position: relative;
+    width: 50px;
+}
+
+.radiobuton::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+.radiobuton:checked::before{
+    background: #00a1ff;
+}
+
+.radiobuton::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.radiobuton:checked::after{
+    left: 35px;
+    border: 2px solid #00a1ff;
+}
