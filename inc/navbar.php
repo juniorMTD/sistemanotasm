@@ -29,7 +29,10 @@
             Empleado
           </a>
           <a class="navbar-item" href="./index.php?mostrar=personal_form">
-            Usuario
+            Docente
+          </a>
+          <a class="navbar-item" href="./index.php?mostrar=personal_form">
+            Estudiante
           </a>
         </div>
       </div>
@@ -88,7 +91,7 @@
           </a>
         </div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable">
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           RESPORTES
         </a>
@@ -98,7 +101,7 @@
             Notas
           </a>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
@@ -106,7 +109,7 @@
       <div class="navbar-item">
         <div class="buttons">
           <a href="index.php?mostrar=personal_update&idusuario_up=<?php echo $_SESSION['id'] ?>" class="button is-primary">
-            <strong>Bienvenido </strong>
+            <strong>Bienvenido <?php echo $_SESSION['nombres']." ".$_SESSION['apellidos'] ?></strong>
           </a>
           <a href="index.php?mostrar=logout" class="button is-danger">
             Salir
