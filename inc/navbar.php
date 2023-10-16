@@ -19,7 +19,7 @@
           ADMINISTRATIVA
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="./index.php?mostrar=personal_form">
+          <a class="navbar-item" href="./index.php?mostrar=rol_form">
             Roles
           </a>
           <a class="navbar-item" href="./index.php?mostrar=personal_form">
